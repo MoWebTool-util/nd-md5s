@@ -7,15 +7,6 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
 
-    server: {
-      develop: {
-        options: {
-          config: false,
-          release: false
-        }
-      }
-    },
-
     jsdoc: {
       api: {
         src: ['index.js', 'src/**/*.js'],
@@ -46,6 +37,6 @@ module.exports = function(grunt) {
   grunt.registerTask('doc', ['clean:doc', 'jsdoc']);
   grunt.registerTask('test', ['jshint', 'exec:spm-test']);
   grunt.registerTask('publish', ['test', 'exec:spm-publish']);
-  grunt.registerTask('default', ['server']);
+  grunt.registerTask('default', ['publish']);
 
 };
