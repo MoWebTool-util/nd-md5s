@@ -5,16 +5,10 @@
 
 'use strict';
 
-/**
- * 辅助函数
- */
-/**
- * 账号MD5加密
- */
 var hex_chr = "0123456789abcdef";
 
 function rhex(num) {
-  var str = "";
+  var str = '';
   for (var j = 0; j <= 3; j++) str += hex_chr.charAt((num >> (j * 8 + 4)) & 0x0F) + hex_chr.charAt((num >> (j * 8)) & 0x0F);
   return str;
 }
@@ -138,8 +132,8 @@ function MD5(str) {
 
 function getMD5Value(data) {
   var a = data;
-  var b = "\xa3\xac\xa1\xa3";
-  var c = "fdjf,jkgfkl";
+  var b = '\xa3\xac\xa1\xa3';
+  var c = 'fdjf,jkgfkl';
   var s = a + b + c;
   return MD5(s);
 }
