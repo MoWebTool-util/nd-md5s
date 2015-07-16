@@ -1,6 +1,6 @@
 /**
- * @module: nd-md5
- * @author: lzhengms <lzhengms@gmail.com> - 2015-04-02 11:26:19
+ * @module MD5
+ * @author lzhengms <lzhengms@gmail.com>
  */
 
 'use strict';
