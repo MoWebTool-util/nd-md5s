@@ -12,11 +12,13 @@
  * 账号MD5加密
  */
 var hex_chr = "0123456789abcdef";
+
 function rhex(num) {
   var str = "";
   for (var j = 0; j <= 3; j++) str += hex_chr.charAt((num >> (j * 8 + 4)) & 0x0F) + hex_chr.charAt((num >> (j * 8)) & 0x0F);
   return str;
 }
+
 function str2blks_MD5(str) {
   var i;
   var nblk = ((str.length + 8) >> 6) + 1;
