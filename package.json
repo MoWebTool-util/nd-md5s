@@ -1,9 +1,9 @@
 {
-  "name": "nd-md5",
+  "name": "nd-md5s",
   "version": "3.0.0",
-  "description": "md5 加密",
+  "description": "带 salt 的 md5 加密",
   "keywords": [],
-  "homepage": "https://github.com/ndfront/nd-md5",
+  "homepage": "https://github.com/ndfront/nd-md5s",
   "author": {
     "name": "lzhengms",
     "email": "lzhengms@gmail.com"
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ndfront/nd-md5.git"
+    "url": "https://github.com/ndfront/nd-md5s.git"
   },
   "bugs": {
-    "url": "https://github.com/ndfront/nd-md5/issues"
+    "url": "https://github.com/ndfront/nd-md5s/issues"
   },
   "licenses": "MIT",
   "main": "index.js",

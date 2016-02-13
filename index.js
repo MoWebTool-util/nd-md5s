@@ -1,5 +1,5 @@
 /**
- * @module MD5
+ * @module md5s
  * @author lzhengms <lzhengms@gmail.com>
  */
 
@@ -130,8 +130,6 @@ function MD5(str) {
   return rhex(a) + rhex(b) + rhex(c) + rhex(d);
 }
 
-function getMD5Value(data, salt) {
+module.exports = function(data, salt) {
   return MD5(data + (salt || ''));
-}
-
-module.exports = getMD5Value;
+};
