@@ -1,6 +1,8 @@
 # nd-md5
 
-[![spm version](http://spm.crossjs.com/badge/nd-md5)](http://spm.crossjs.com/package/nd-md5)
+[![Travis](https://img.shields.io/travis/ndfront/nd-md5.svg?style=flat-square)](https://github.com/ndfront/nd-md5)
+[![Coveralls](https://img.shields.io/coveralls/ndfront/nd-md5.svg?style=flat-square)](https://github.com/ndfront/nd-md5)
+[![NPM version](https://img.shields.io/npm/v/nd-promise.svg?style=flat-square)](https://npmjs.org/package/nd-md5)
 
 > md
 

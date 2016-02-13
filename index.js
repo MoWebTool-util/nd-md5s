@@ -130,12 +130,8 @@ function MD5(str) {
   return rhex(a) + rhex(b) + rhex(c) + rhex(d);
 }
 
-function getMD5Value(data) {
-  var a = data;
-  var b = '\xa3\xac\xa1\xa3';
-  var c = 'fdjf,jkgfkl';
-  var s = a + b + c;
-  return MD5(s);
+function getMD5Value(data, salt) {
+  return MD5(data + (salt || ''));
 }
 
 module.exports = getMD5Value;
